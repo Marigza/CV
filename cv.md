@@ -1,10 +1,10 @@
 # Gapeyeva Marina
-=====
+
 ## Contacts
 * Email: marigola@mail.ru
 * Tel: 89138913838
 * Github: Marigza
-=====
+
 ## About myself
 My work experience has taught me how to interact with a team, work with large amounts of information and separate the main from the secondary.
 
