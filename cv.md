@@ -15,6 +15,18 @@ My purpose is to learn and grow into a top-grade frontend developer.
 * HTML
 * CSS
 ## Code example
+
 ## Experience
+I don’t have any experience in development yet, from practice I  create only this CV in Markdown, HTML, CSS. Previously, I worked as an accountant (cash desk, bank, suppliers, contractors, salaries, taxes, fixed assets) and a tax inspector (desk audits of the correctness of VAT calculations).
 ## Education
+1. Novosibirsk State Technical University (NSTU), 2006
+	* Engineer
+2. Novosibirsk State Technical University (NSTU), 2007
+	* Economist
+3. RS School, 2022
+	* JavaScript/Front-end. Stage 0
 ## Languages
+* Russian (native)
+* English (intermedia)
+* Italian (beginner)
+
