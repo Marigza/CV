@@ -20,31 +20,18 @@ My purpose is to learn and grow into a top-grade frontend developer.
 
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>CSS6</title>
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <div class="box1">
- 	        <ul class="list1">
-                <li>Put on this page information about your product</li>
-                <li>A detailed description of your product</li>
-            </ul>
-            <ul class="list2">
-                <li>Tell us about the advantages and merits</li>
-                <li>Associate the page with the payment system</li>
-            </ul>
-        </div>
-        <div class="box2">
-            <a target="_blank" href="http://yandex.ru" class="link"><span>full story</span></a>
-        </div>
-        <div>
-            <form action="#">
-                <input type="text" class="inputtext">
-            </form>
-        </div>
-    </body>
+<head>
+<meta charset="UTF-8">
+<title>html</title>
+</head>
+<body>
+<ul>
+<li>Put on this page information about your product</li>
+<li>A detailed description of your product</li>
+<li>Tell us about the advantages and merits</li>
+<li>Associate the page with the payment system</li>
+</ul>
+</body>
 </html>
 
  ```
