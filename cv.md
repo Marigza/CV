@@ -16,25 +16,25 @@ My purpose is to learn and grow into a top-grade frontend developer.
 * HTML
 * CSS
 ## Code example
+``` html
+
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <title>html</title>
+    </head>
+    <body>
+    <ul>
+    <li>Put on this page information about your product</li>
+    <li>A detailed description of your product</li>
+    <li>Tell us about the advantages and merits</li>
+    <li>Associate the page with the payment system</li>
+    </ul>
+    </body>
+    </html>
+
 ```
-
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-<meta charset="UTF-8">
-<title>html</title>
-</head>
-<body>
-<ul>
-<li>Put on this page information about your product</li>
-<li>A detailed description of your product</li>
-<li>Tell us about the advantages and merits</li>
-<li>Associate the page with the payment system</li>
-</ul>
-</body>
-</html>
-
- ```
 ## Experience
 I don’t have any experience in development yet, from practice I create only this CV in Markdown, HTML, CSS. Previously, I worked as an accountant (cash desk, bank, suppliers, contractors, salaries, taxes, fixed assets) and a tax inspector (desk audits of the correctness of VAT calculations).
 ## Education
