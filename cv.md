@@ -17,6 +17,7 @@ My purpose is to learn and grow into a top-grade frontend developer.
 * CSS
 ## Code example
 ```
+
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -45,6 +46,7 @@ My purpose is to learn and grow into a top-grade frontend developer.
         </div>
     </body>
 </html>
+
  ```
 ## Experience
 I don’t have any experience in development yet, from practice I create only this CV in Markdown, HTML, CSS. Previously, I worked as an accountant (cash desk, bank, suppliers, contractors, salaries, taxes, fixed assets) and a tax inspector (desk audits of the correctness of VAT calculations).
