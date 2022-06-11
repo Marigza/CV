@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+}
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Poppins;
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(154, 154, 154, 0.3);
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer-container {
+    max-width: 1440px;
+    margin: 0, auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.header {
+    background-color: rgba(154, 154, 154, 0.8);
+}
+.footer {
+    background-color: rgba(154, 154, 154, 0.8);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #cc0000;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    font-size: 28px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section-h1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.section {
+    width: 50%;
+    border: 5px solid rgba(154, 154, 154, 0.8);
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .section-H1 {
+        width: 100%;
+    }
+}
+h1 {
+    font-size: 60px;
+    color: #cc0000;
+}
+.h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.list {
+    padding: 0;
+    margin-left: 20px;
+}
+h2 {
+    color: #cc0000;
+    font-size: 20px;
+}
+.footer-link {
+    color: #000000;
+    text-decoration: none; 
+    font-style: italic;
+    font-size: 20px;
+}
+
+.main-link {
+    color: #000000;
+    text-decoration: none;
+    font-style: italic;
+
+}
+dd {
+    font-weight: 700;
+    display: block;
+    margin-left: 30px;
+}
