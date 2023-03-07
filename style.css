@@ -2,118 +2,156 @@
     font-family: Poppins;
     src: url("assets/fonts/Poppins/Poppins-Light.ttf");
 }
+
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
-    font-family: Poppins;
-    min-height: 100vh;
-    padding: 0;
+    font-family: 'Poppins', Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(154, 154, 154, 0.3);
-}
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.footer-container {
-    max-width: 1440px;
-    margin: 0, auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 60px;
-    align-items: center;
-}
-.header {
-    background-color: rgba(154, 154, 154, 0.8);
-}
-.footer {
-    background-color: rgba(154, 154, 154, 0.8);
+    font-size: 20px;
 }
 
-.nav-list {
+.wrapper {
+    max-width: 1200px;
+    background-color: rgba(154, 154, 154, 0.8);
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    padding: 0 30px;
+}
+
+.nav_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
 }
-.nav-link {
-    padding: 0 10px;
+
+.nav_item {
+    padding: 0;
     line-height: 50px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.nav_link {
     text-decoration: none;
     color: #cc0000;
-    font-size: 20px;
-    transition: 0.3s;
 }
-.nav-link:hover {
-    font-size: 28px;
+
+.nav_link:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1440px;
-    margin: 0 auto;
+
+.main__wrapper {
+    background-color: rgba(154, 154, 154, 0.2);
+    padding: 0 30px;
 }
-.section-h1{
+
+.information {
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     align-items: center;
-    justify-content: space-around;
 }
-.section {
-    width: 50%;
-    border: 5px solid rgba(154, 154, 154, 0.8);
+
+.information__foto {
+    height: 400px;
+    margin: 15px 30px 15px 0;
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+    outline-offset: -15px;
 }
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
+
+.information__text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
 }
-@media (max-width: 768px) {
-    .section-H1 {
-        width: 100%;
-    }
-}
-h1 {
-    font-size: 60px;
+
+.information__name {
     color: #cc0000;
-}
-.h1 {
-    font-size: 35px;
+    text-shadow: 5px 5px rgb(154, 154, 154, 0.8);
+    font-size: 60px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
+
+.information__profession {
+    font-size: 34px;
+    text-shadow: 3px 3px rgb(154, 154, 154);
+    margin-bottom: 70px;
+}
+
+.information__contacts {
+    align-self: flex-start;
+    font-size: 22px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__section {
+    border: 5px solid rgba(154, 154, 154, 0.8);
+    background-color: rgba(154, 154, 154, 0.3);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(154, 154, 154, 0.8);
+    ;
+}
+
 .list {
     padding: 0;
     margin-left: 20px;
 }
-h2 {
+
+.about-me__header {
     color: #cc0000;
-    font-size: 20px;
-}
-.footer-link {
-    color: #000000;
-    text-decoration: none; 
-    font-style: italic;
     font-size: 20px;
 }
 
 .main-link {
     color: #000000;
     text-decoration: none;
-    font-style: italic;
-
 }
-dd {
-    font-weight: 700;
-    display: block;
-    margin-left: 30px;
+
+.main-link:hover {
+    text-decoration: underline;
+}
+
+.footer__wrapper {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.footer-link {
+    color: #000000;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
 }
