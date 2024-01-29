@@ -17,28 +17,34 @@
                 <ul class="nav_list">
                     <li class="nav_item"><a class="nav_link" href="#summary">Summary</a></li>
                     <li class="nav_item"><a class="nav_link" href="#skills">Skills</a></li>
-                    <li class="nav_item"><a class="nav_link" href="#code">Code example</a></li>
                     <li class="nav_item"><a class="nav_link" href="#experience">Experience</a></li>
                     <li class="nav_item"><a class="nav_link" href="#projects">Projects</a></li>
                     <li class="nav_item"><a class="nav_link" href="#education">Education</a></li>
                     <li class="nav_item"><a class="nav_link" href="#languages">Languages</a></li>
                 </ul>
+                
             </nav>
+            <div class="nav_burger">
+                <span class="burger_line"></span>
+            </div>
         </div>
     </header>
     <main class="main">
         <div class="main__wrapper wrapper">
             <section class="information" id="Profile">
-                <div class="information__foto"><img src="assets/myfoto.jpg" alt="foto" width="400"></div>
+                <picture class="information__foto">
+                    <source media="(max-width: 500px)" srcset="assets/myfoto.jpg" width="250">
+                    <img src="assets/myfoto.jpg" alt="gapeyeva-marina" width="400">
+                </picture>
                 <div class="information__text">
                     <h1 class="information__name">Gapeyeva Marina</h1>
-                    <p class="information__profession">Front-end Developer Junior</p>
+                    <p class="information__profession">Front-end Developer</p>
                     <div class="information__contacts">
                         <ul class="list">
                             <li><strong>Email:</strong> marigola@mail.ru</li>
-                            <li><strong>Tel:</strong> 89138913838</li>
+                            <li><strong>Telegram:</strong> @marina_gapeyeva</li>
                             <li><strong>Github:</strong> Marigza</li>
-                            <li><strong>Discord:</strong> marinella#4559</li>
+                            <li><strong>Discord:</strong> marinella_g</li>
                         </ul>
                     </div>
                 </div>
@@ -47,70 +53,107 @@
                 <div class="about-me__section" id="summary">
                     <h2 class="about-me__header">Summary</h2>
                     <div>
-                        <p>
+                        <p class="summary_info">
                             My work experience has taught me how to interact with a team, work with large amounts of
                             information and separate the main from the secondary.
                         </p>
-                        <p>
-                            After moving to another city, there was a desire to try myself in other areas of activity. I
-                            came to programming after communication and recommendations from friends and acquaintances.
-                            This area contains a lot of new, constantly changing information, which allows the neural
-                            connections in the head to work.
-                        </p>
-                        <p>
-                            My purpose is to learn and grow into a top-grade frontend developer.
+                        <br>
+                        <p class="summary_info">
+                            After moving to another city, there was a desire to try myself in new area of activity. I
+                            came to programming because this area contains a lot of new, constantly changing information, which allows the neural connections in the head to work.
                         </p>
                     </div>
                 </div>
-                <div class="about-me__section" id="skills">
-                    <h2 class="about-me__header">Skills</h2>
-                    <ul class="list">
-                        <li>GIT</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                </div>
-                <div class="about-me__section" id="code">
-                    <h2 class="about-me__header">Code example</h2>
-                    <pre>
-            <code>
-              const isPensioner = (age) => age >= 60;
-            </code>
-          </pre>
+                <div class="about-me__section skills" id="skills">
+                    <div class="skills-block">
+                        <h2 class="about-me__header">Hard Skills</h2>
+                        <ul class="list">
+                            <li>GIT</li>
+                            <li>HTML</li>
+                            <li>CSS, SCSS, SASS</li>
+                            <li>FIGMA</li>
+                            <li>WEBPACK</li>
+                            <li>JAVASCRIPT</li>
+                            <li>TYPESCRIPT</li>
+                            <li>ANGULAR</li>
+                            <li>RXJS</li>
+                            <li>NGRX</li>
+                            <li>REST API</li>
+                        </ul>
+                    </div>
+                    <div class="skills-block">
+                        <h2 class="about-me__header">Soft Skills</h2>
+                        <ul class="list">
+                            <li>Teamwork</li>
+                            <li>Verbal and written literacy</li>
+                            <li>Flexibility and adaptability</li>
+                            <li>Experience in presentations and code reviews</li>
+                            <li>Critical thinking</li>
+                            <li>Love outdoor activity</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="about-me__section" id="experience">
                     <h2 class="about-me__header">Experience</h2>
-                    <p>I am studying to be a front-end developer. I created some projects from RSSchool
-                        JavaScript/Front-end stage 0 and stage 1. Previously, I worked as an accountant (cash desk,
-                        bank, suppliers, contractors, salaries, taxes, fixed assets) and a tax inspector (desk audits of
-                        the correctness of VAT calculations).</p>
+                    <p class="summary_info">While studying to be a <strong>front-end developer</strong> I'd been producing many interesting and challenging tasks: I created <em>pixel-perfect layouts</em> from design in Figma, solved <em>problems with many logic and async processes</em>, worked in team as <em>teamlead with implement of agile methods</em>, created online-store using commercetools-platform with <em>routing, authorization, profile and basket</em>,  wrote store for applications <em>using NGRX.</em></p>
+                    <br>
+                    <p>Previously, I worked as an <strong>accountant</strong> (cash desk,
+                    bank, suppliers, contractors, salaries, taxes, fixed assets) and a <strong>tax inspector</strong> (desk audits of the correctness of VAT calculations).
+                    </p>
+                    <br>
+                    <table class="experience__table">
+                        <tr class="experience__row">
+                            <td class="experience-time">2022-2023</td>
+                            <td class="experience-work">Front-end development</td>
+                        </tr>
+                        <tr class="experience__row">
+                            <td class="experience-time">2019-2021</td>
+                            <td class="experience-work">was a housewife</td>
+                        </tr>
+                        <tr class="experience__row">
+                            <td class="experience-time">2006-2019</td>
+                            <td class="experience-work">government employee (Federal Tax Service of Russia)</td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="about-me__section" id="projects">
                     <h2 class="about-me__header">Projects</h2>
-                    <div>
+                    <h4>WebSites Layouts</h4>
+                    <div class="project_block">
                         <a target="_blank" class="main-link"
-                            href="https://marigza.github.io/layouts-2Q2022/codejam-eldritch/">Eldritch-Horror</a>
-                    </div>
-                    <div>
-                        <a target="_blank" class="main-link"
-                            href="https://marigza.github.io/layouts-2Q2022/momentum/stage1-tasks-momentum">Momentum</a>
-                    </div>
-                    <div>
-                        <a target="_blank" class="main-link"
-                            href="https://marigza.github.io/layouts-2Q2022/travel/">Travel</a>
-                    </div>
-                    <div>
+                            href="https://marigza.github.io/Plants-layout/plants/">Plants</a>
                         <a target="_blank" class="main-link"
                             href="https://marigza.github.io/layout-3Q2022/online-zoo/pages/main/">Online Zoo</a>
+                        <a target="_blank" class="main-link"
+                            href="https://marigza.github.io/JSFE2023Q1/shelter/pages/main">Shelter</a>
+                    </div> 
+                    <h4>Games and Small Applications</h4>
+                    <div class="project_block">
+                        <a target="_blank" class="main-link"
+                            href="https://marigza.github.io/virtual-keyboard/">Virtual Keyboard</a>
+                        <a target="_blank" class="main-link"
+                                href="https://marigza.github.io/layouts-2Q2022/momentum/stage1-tasks-momentum">Momentum</a>
+                        <a target="_blank" class="main-link"
+                                href="https://marigza.github.io/JSFE2023Q1/minesweeper/">Minesweeper</a>
+                        <a target="_blank" class="main-link"
+                                href="https://marigza.github.io/JSFE2023Q1/css-selectors/">css-selectors</a>
+                        <a target="_blank" class="main-link"
+                                href="https://marigza.github.io/cssBayan/cssBayan/index.html">cssBayan</a>
+                    </div>
+                    <h4>SPA</h4>
+                    <div class="project_block">
+                        <a target="_blank" class="main-link"
+                            href="https://marigza.github.io/Angular2023/youtube-client-app/">YouTube (Angular)</a>
+                        <a target="_blank" class="main-link"
+                            href="https://marigza.github.io/Angular2023/connections-app/">Connections (Angular)</a>
                     </div>
                 </div>
                 <div class="about-me__section" id="education">
                     <h2 class="about-me__header">Education</h2>
                     <div>
-                        <div>Novosibirsk State Technical University (NSTU), 2006 <strong>- Engineer</strong></div>
-                        <div>Novosibirsk State Technical University (NSTU), 2007 <strong> - Economist</strong></div>
-                        <div>RS School, 2023 <strong>- JavaScript/Front-end. Stage 0</strong></div>
+                        <div class="education">Novosibirsk State Technical University (NSTU), 2006 <strong>- Engineer</strong></div>
+                        <div class="education">Novosibirsk State Technical University (NSTU), 2007 <strong> - Economist</strong></div>
+                        <div class="education">RS School, 2023 <strong>- JavaScript/Front-end, Angular</strong></div>
                     </div>
                 </div>
                 <div class="about-me__section" id="languages">
@@ -118,7 +161,6 @@
                     <ul class="list">
                         <li>Russian (native)</li>
                         <li>English (intermedia)</li>
-                        <li>Italian (beginner)</li>
                     </ul>
                 </div>
             </section>
@@ -128,11 +170,13 @@
         <div class="footer__wrapper wrapper">
             <div><a class="footer-link" target="_blank" href="https://github.com/Marigza"><img src="assets/github.svg"
                         alt="github" width="16">my GitHub</a></div>
-            <div>2022</div>
+            <div>2024</div>
             <div><a target="_blank" href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="rsschool"
                         width="100"></a></div>
         </div>
     </footer>
+<div class="modal-background"></div>
+<script src="main.js"></script>
 </body>
 
 </html>
