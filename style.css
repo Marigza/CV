@@ -167,6 +167,14 @@ body {
     outline: 1px solid #000;;
 }
 
+.project-technology {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: #cc0000;
+}
+
 .footer__wrapper {
     padding: 0 50px;
     display: flex;
