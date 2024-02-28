@@ -145,6 +145,7 @@ body {
 .about-me__header {
     color: #cc0000;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .project_block {
