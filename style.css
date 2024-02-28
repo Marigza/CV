@@ -145,6 +145,7 @@ body {
 .about-me__header {
     color: #cc0000;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .project_block {
@@ -165,6 +166,14 @@ body {
 .main-link:hover {
     background-color: rgba(154, 154, 154, 0.9);
     outline: 1px solid #000;;
+}
+
+.project-technology {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: #cc0000;
 }
 
 .footer__wrapper {
